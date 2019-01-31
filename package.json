@@ -1,0 +1,15 @@
+{
+  "name": "express-boilerplate-js",
+  "version": "0.0.1",
+  "private": false,
+  "scripts": {
+    "start": "node ./scripts/start.js"
+  },
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "cookie-parser": "~1.4.3",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2"
+  },
+  "devDependencies": {}
+}

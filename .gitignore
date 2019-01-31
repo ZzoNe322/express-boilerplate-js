@@ -1,0 +1,47 @@
+ OS X
+.DS_Store*
+Icon?
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+.directory
+*~
+
+# npm
+node_modules
+package-lock.json
+*.log
+*.gz
+
+# Coveralls
+coverage
+
+# Benchmarking
+benchmarks/graphs
+
+# dotenv environment variables file
+.env
+.env.test
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Jetbrains
+.idea/*
+.idea_modules/*
+
+#VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+

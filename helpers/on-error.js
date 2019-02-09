@@ -1,3 +1,5 @@
+const logger = require('../helpers/get-logger');
+
 module.exports = function onError(error) {
     if (error.syscall !== 'listen') {
         throw error;
@@ -6,11 +8,11 @@ module.exports = function onError(error) {
 
     switch (error.code) {
         case 'EACCES':
-            console.error('%s requires elevated privileges', bind);
+            logger.error(`${bind} requires elevated privileges`);
             process.exit(1);
             break;
         case 'EADDRINUSE':
-            console.error('%s is already in use', bind);
+            logger.error(`${bind} is already in use`);
             process.exit(1);
             break;
         default:

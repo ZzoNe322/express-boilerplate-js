@@ -1,11 +1,8 @@
 module.exports = function normalizePort(val) {
     const port = parseInt(val, 10);
 
-    if (Number.isNaN(port)) {
-        return val;
+    if (Number.isNaN(port) || port < 0) {
+        throw new Error('invalid port number ' + val);
     }
-    if (port >= 0) {
-        return port;
-    }
-    return false;
+    return port;
 };

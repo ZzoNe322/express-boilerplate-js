@@ -5,7 +5,7 @@ describe('helpers: normalizePort', () => {
         expect(normalizePort).toThrow(/^invalid port number/);
     });
     it('should parse port string \'3000\'', () => {
-        const PORT = '3000';
-        expect(normalizePort(PORT)).toEqual(3000);
+        const PORT = process.env.HTTP_PORT;
+        expect(normalizePort(PORT)).toEqual(parseInt(PORT));
     });
 });

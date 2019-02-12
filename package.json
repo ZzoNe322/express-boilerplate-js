@@ -1,6 +1,8 @@
 {
   "name": "express-boilerplate-js",
   "version": "0.0.1",
+  "repository": "https://github.com/ZzoNe322/express-boilerplate-js",
+  "license": "MIT",
   "private": false,
   "scripts": {
     "start": "node ./scripts/start.js",

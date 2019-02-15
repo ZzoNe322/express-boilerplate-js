@@ -5,6 +5,7 @@ Boilerplate for express web server in JS.
 ## How to use
 
 - `git clone`
+- `npm i`
 - add `.env` file or just rename `.env.exapmle` --> `.env`
 - `npm start`
 

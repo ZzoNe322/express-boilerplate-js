@@ -7,7 +7,7 @@
   "scripts": {
     "start": "node ./scripts/start.js",
     "test": "jest",
-    "test:js": "eslint --ignore-path .gitignore \"**/*.{js,jsx}\""
+    "test:lint": "eslint --ignore-path .gitignore \"**/*.{js,jsx}\""
   },
   "jest": {
     "testEnvironment": "./scripts/test/test-environment.js"

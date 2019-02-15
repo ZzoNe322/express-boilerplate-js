@@ -4,9 +4,13 @@ Boilerplate for express web server in JS.
 
 ## How to use
 
+#### Setup
+
+- install _Node.js_ (ver. 8 or higher) and _npm_ from https://nodejs.org/
 - `git clone`
+- `cd express-boilerplate-js`
 - `npm i`
-- add `.env` file or just rename `.env.exapmle` --> `.env`
+- add _.env_ file with env variables like in _env.example_ or just rename _.env.exapmle_ -> _.env_
 - `npm start`
 
 You will see this message:
@@ -16,6 +20,18 @@ You will see this message:
 Congratulations! It works.
 
 Feel free to access `127.0.0.1:3000` through browser/Postman to get greeting message form server.
+
+#### Testing
+
+You can run tests (_with help of Jest_) with command
+
+- `npm run test`
+
+Some pre-build boilerplate tests will execute. You can find them in `__test__` directory in project.
+
+Also, you can manually run eslint test with command
+
+- `npm run test:lint`
 
 ## Features
 

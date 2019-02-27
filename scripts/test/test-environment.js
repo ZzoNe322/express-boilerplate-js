@@ -1,6 +1,6 @@
 const path = require('path');
 require('dotenv').config({ path: path.resolve(__dirname, '../../.env') });
-const logger = require('../../helpers/get-logger');
+const logger = require('../../src/helpers/get-logger');
 const NodeEnvironment = require('jest-environment-node'); // eslint-disable-line
 
 class TestEnvironment extends NodeEnvironment {

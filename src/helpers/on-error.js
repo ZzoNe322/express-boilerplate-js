@@ -1,4 +1,4 @@
-const logger = require('../helpers/get-logger');
+const logger = require('./get-logger');
 
 module.exports = function onError(error) {
     if (error.syscall !== 'listen') {

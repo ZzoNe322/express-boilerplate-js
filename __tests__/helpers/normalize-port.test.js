@@ -1,4 +1,4 @@
-const normalizePort = require('../../helpers/normalize-port');
+const normalizePort = require('../../src/helpers/normalize-port');
 
 describe('helpers: normalizePort', () => {
     it('should throw error if port string is undefined', () => {

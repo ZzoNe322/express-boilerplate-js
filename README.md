@@ -21,6 +21,8 @@ Congratulations! It works.
 
 Feel free to access `127.0.0.1:3000` through browser/Postman to get greeting message form server.
 
+You can also test POST request - pass your name in request body. Check validation model in `src/validation/models/post.joi.js`
+
 #### Testing
 
 You can run tests (_with help of Jest_) with command
@@ -50,6 +52,8 @@ This boilerplate using:
 - **Prettier** [https://github.com/prettier/prettier] for code formatting
 
 - **Husky** [https://github.com/typicode/husky] for git hooks
+
+- **Joi** [https://github.com/hapijs/joi] for real-time validation
 
 ## FAQ
 
